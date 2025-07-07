@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Projects - Arnab Sen</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #e8f0f9;
+      color: #333;
+    }
+    header {
+      background-color: #004488;
+      color: #fff;
+      padding: 20px 40px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 36px;
+      margin: 20px 0;
+      color: #004488;
+      text-align: center;
+    }
+    .projects-container {
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 0 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 20px;
+    }
+    .project-card {
+      background: #fff;
+      border-radius: 6px;
+      padding: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .project-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+    .project-card h3 {
+      margin-top: 0;
+      color: #004488;
+      font-size: 20px;
+    }
+    .project-card p {
+      font-size: 16px;
+      color: #555;
+      line-height: 1.6;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #004488;
+      color: #fff;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Projects</h1>
+  </header>
+
+  <div class="projects-container">
+    <div class="project-card">
+      <h3>Medical Research Presentation</h3>
+      <p>
+        A research project exploring how technology and healthcare can integrate to improve patient outcomes.
+      </p>
+    </div>
+    <div class="project-card">
+      <h3>Ethical Hacking Basics</h3>
+      <p>
+        An introductory guide I prepared on ethical hacking techniques and security awareness.
+      </p>
+    </div>
+    <div class="project-card">
+      <h3>NEET Preparation Notes</h3>
+      <p>
+        My self-curated NEET preparation materials and study guides shared with classmates.
+      </p>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Arnab Sen
+  </footer>
+</body>
+</html>

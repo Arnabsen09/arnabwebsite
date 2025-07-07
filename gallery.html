@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Gallery - Arnab Sen</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #121212;
+      color: #eee;
+    }
+    header {
+      background: #1f1f1f;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    nav a {
+      color: #ccc;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #4da6ff;
+    }
+    h1 {
+      font-size: 36px;
+      margin: 20px 0;
+      color: #fff;
+      text-align: center;
+    }
+    .album {
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    .album h2 {
+      font-size: 24px;
+      color: #4da6ff;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #4da6ff;
+      padding-bottom: 5px;
+    }
+    .album-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 20px;
+    }
+    .album-grid img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 6px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.6);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .album-grid img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.8);
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #1f1f1f;
+      color: #888;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Gallery</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <div class="album">
+    <h2>Myself</h2>
+    <div class="album-grid">
+      <img src="myself/myself1.jpg" alt="Myself 1">
+      <img src="myself/myself2.jpg" alt="Myself 2">
+      <img src="myself/myself3.jpg" alt="Myself 3">
+    </div>
+  </div>
+
+  <div class="album">
+    <h2>School Life</h2>
+    <div class="album-grid">
+      <img src="School Life/school1.jpg" alt="School 1">
+      <img src="School Life/school2.jpg" alt="School 2">
+      <img src="School Life/school3.jpg" alt="School 3">
+    </div>
+  </div>
+
+  <div class="album">
+    <h2>College Life</h2>
+    <div class="album-grid">
+      <img src="collage/college1.jpg" alt="College 1">
+      <img src="collage/college2.jpg" alt="College 2">
+      <img src="collage/college3.jpg" alt="College 3">
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Arnab Sen
+  </footer>
+</body>
+</html>

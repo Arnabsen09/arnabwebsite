@@ -1,0 +1,33 @@
+.social-icons a {
+  margin: 0 8px;
+  text-decoration: none;
+  font-size: 24px;
+  transition: transform 0.3s, color 0.3s;
+}
+
+/* Individual colors */
+.social-icons a.email-icon {
+  color: #555;
+}
+.social-icons a.instagram-icon {
+  color: #E1306C;
+}
+.social-icons a.facebook-icon {
+  color: #1877F2;
+}
+
+/* Hover effects */
+.social-icons a:hover {
+  transform: scale(1.3) rotate(5deg);
+}
+
+/* Different color on hover */
+.social-icons a.email-icon:hover {
+  color: #333;
+}
+.social-icons a.instagram-icon:hover {
+  color: #C13584;
+}
+.social-icons a.facebook-icon:hover {
+  color: #0d65d9;
+}
