@@ -2,14 +2,21 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About Me - Arnab Sen</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <style>
+    :root {
+      --bg-color: #121212;
+      --card-color: #1e1e1e;
+      --text-color: #eee;
+      --accent: #4da6ff;
+    }
     body {
       margin: 0;
       font-family: 'Poppins', sans-serif;
-      background: #121212;
-      color: #eee;
+      background: var(--bg-color);
+      color: var(--text-color);
     }
     header {
       background: #1f1f1f;
@@ -18,27 +25,25 @@
       text-align: center;
     }
     nav a {
-      color: #ccc;
       margin: 0 10px;
+      color: #ccc;
       text-decoration: none;
       font-weight: 500;
-      transition: color 0.3s;
     }
     nav a:hover {
-      color: #4da6ff;
+      color: var(--accent);
     }
     .container {
       max-width: 900px;
       margin: 40px auto;
-      background: #1e1e1e;
+      background: var(--card-color);
       padding: 40px;
-      border-radius: 8px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.5);
     }
     h1 {
-      font-size: 36px;
-      color: #fff;
       text-align: center;
+      color: #fff;
       margin-bottom: 20px;
     }
     p {
@@ -61,25 +66,20 @@
     <h1>About Me</h1>
     <nav>
       <a href="index.html">Home</a>
+      <a href="about.html">About</a>
       <a href="gallery.html">Gallery</a>
       <a href="contact.html">Contact</a>
     </nav>
   </header>
 
   <div class="container">
-    <p>
-      Hello! I’m Arnab Sen, a student from Tripura with a deep passion for healthcare and technology. I’m currently enrolled in the B.Sc Operation Theatre Technology program at Tripura Institute of Paramedical Sciences (TIPS). Alongside my studies, I’m preparing for NEET to pursue my ultimate goal of becoming a doctor.
-    </p>
-    <p>
-      I have a strong interest in medical science and enjoy learning about how technology and healthcare can work together to save lives. Outside my academic life, I love exploring ethical hacking, watching Marvel and Disney movies, and experimenting with Bengali dishes (yes, paneer posto is my favorite!).
-    </p>
-    <p>
-      I believe in consistent learning and working hard to achieve my dreams. This website is my little space on the internet to share my journey, experiences, and things I love.
-    </p>
+    <p>Hello! I’m Arnab Sen, a student from Tripura with a deep passion for healthcare and technology. I’m currently enrolled in the B.Sc Operation Theatre Technology program at Tripura Institute of Paramedical Sciences (TIPS). Alongside my studies, I’m preparing for NEET to pursue my ultimate goal of becoming a doctor.</p>
+    <p>I have a strong interest in medical science and enjoy learning about how technology and healthcare can work together to save lives. Outside my academic life, I love exploring ethical hacking, watching Marvel and Disney movies, and experimenting with Bengali dishes (yes, paneer posto is my favorite!).</p>
+    <p>I believe in consistent learning and working hard to achieve my dreams. This website is my little space on the internet to share my journey, experiences, and things I love.</p>
   </div>
 
   <footer>
-    &copy; 2025 Arnab Sen
+    &copy; 2025 Arnab Sen | All Rights Reserved
   </footer>
 </body>
 </html>
